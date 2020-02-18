@@ -1,0 +1,23 @@
+.buttons {
+  text-align: center;
+  &__button{
+    &-main{
+      width: 200px;
+      height: 200px;
+      font-size: 150px;
+      position: relative;
+      color: black;
+      padding: 0px;
+    }
+    &-reset{
+      margin: 25px;
+      width: 100px;
+      height: 35px;
+      font-size: 25px;
+      font-family: "Times New Roman";
+      position: relative;
+      color: black;
+      padding: 0px;
+    }
+  }
+}
